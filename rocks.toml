@@ -1,0 +1,40 @@
+import = [
+  "rocks/themes.toml",
+  "rocks/parsers.toml",
+  "rocks/editor.toml",
+  "rocks/rust.toml",
+  "rocks/lsp.toml"
+]
+
+[plugins]
+"rocks.nvim" = { version = "2.41.2", pin = true }
+"rocks-git.nvim" = { version = "2.5.1", pin = true }
+"rocks-config.nvim" = { version = "3.0.0", pin = true }
+"rocks-lazy.nvim" = { version = "1.1.1", pin = true }
+"rocks-treesitter.nvim" = { version = "1.1.3", pin = true }
+"rocks-dev.nvim" = { version = "1.7.0", pin = true }
+"plenary.nvim" = { version = "scm", pin = true }
+"mason.nvim" = { version = "1.10.0", pin = true }
+
+[config]
+colorscheme = "kanagawa-wave"
+plugins_dir = "plugins/"
+auto_setup = false
+
+[config.options]
+wrap = true
+textwidth = 80
+linebreak = true
+breakindent = true
+showbreak = ">"
+guifont = "FiraCode Nerd Font"
+relativenumber = true
+foldmethod = "expr"
+foldexpr = "v:lua.vim.treesitter.foldexpr()"
+foldcolumn = "0"
+foldtext = ""
+foldlevel = 99
+foldlevelstart = 3
+foldnestmax = 4
+formatexpr = "v:lua.require'conform'.formatexpr()"
+

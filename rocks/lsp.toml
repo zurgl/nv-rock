@@ -1,0 +1,44 @@
+[plugins."nvim-snippets"]
+version = "scm"
+pin = true
+
+[plugins."nvim-snippy"]
+version = "1.0.0"
+pin = true
+
+[plugins."cmp-buffer"]
+version = "scm"
+pin = true
+
+[plugins."cmp-path"]
+version = "scm"
+pin = true
+
+[plugins."cmp-cmdline"] 
+version = "scm"
+pin = true
+
+[plugins."nvim-cmp"]
+version = "scm"
+pin = true
+
+[plugins."mason-lspconfig.nvim"]
+version = "1.31.0"
+pin = true
+
+[plugins."cmp-nvim-lsp"] 
+version = "scm"
+pin = true
+
+[plugins."nvim-lspconfig"]
+version = "1.0.0"
+pin = true
+
+[plugins."conform.nvim"]
+versoin = "8.1.0"
+pin = true
+
+[plugins."cmp-snippy"]
+dir = "~/.config/nvim/.mock/nvim/cmp-snippy"
+pin = true
+

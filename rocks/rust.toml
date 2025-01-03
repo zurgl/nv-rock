@@ -1,0 +1,12 @@
+[plugins."rustaceanvim"]
+version = "5.13.1"
+pin = true
+
+[plugins."nvim-dap"]
+version = "0.8.0"
+pin = true
+
+[plugins."typst.vim"]
+git = "kaarmu/typst.vim"
+pin = true
+

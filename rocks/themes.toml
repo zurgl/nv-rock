@@ -1,0 +1,8 @@
+[plugins."tokyonight.nvim"]
+version = "4.9.0"
+pin = true
+
+[plugins."kanagawa.nvim"]
+version = "scm"
+pin = true
+

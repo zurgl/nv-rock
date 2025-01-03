@@ -1,0 +1,53 @@
+
+[plugins."tree-sitter-just"]
+version = "0.0.31"
+pin = true
+
+[plugins."tree-sitter-make"]
+version = "0.0.29"
+pin = true
+
+[plugins."tree-sitter-fish"]
+version = "0.0.29"
+pin = true
+
+[plugins."tree-sitter-bash"]
+version = "0.0.36"
+pin = true
+
+[plugins."tree-sitter-toml"]
+version = "0.0.30"
+pin = true
+
+[plugins."tree-sitter-lua"]
+version = "0.0.31"
+pin = true
+
+[plugins."tree-sitter-commonlisp"]
+version = "0.0.29"
+pin = true
+
+[plugins."tree-sitter-rust"]
+version = "0.0.38"
+pin = true
+
+[plugins."tree-sitter-typst"]
+version = "0.0.31"
+pin = true
+
+[plugins."tree-sitter-typescript"]
+version = "0.0.30"
+pin = true
+
+[plugins."tree-sitter-javascript"]
+version = "0.0.31"
+pin = true
+
+[plugins."tree-sitter-vim"]
+version = "0.0.29"
+pin = true
+
+[plugins."tree-sitter-xml"]
+version = "0.0.33"
+pin = true
+
