@@ -80,15 +80,6 @@ vim.api.nvim_set_keymap(
 -- Copy to clipboard
 keymap("v", "<leader>y", "+y", opts)
 
--- it is not allowed to be edited
---local builtin = require("telescope.builtin")
---vim.keymap.set("n", "<leader>p", builtin.find_files, { desc = "Telescope find files" })
-
---keys = [ { lhs = "<leader>p", rhs = "<CMD>Telescope<CR>" } ]
--- Comment
--- keymap("n", "<leader>/", "<cmd>lua require('comment').toggle()<CR>", opts)
--- keymap("v", "<leader>/", ':lua require("comment.api").gc(vim.fn.visualmode())<cr>', opts)
-
 -- keymap(
 --   "n",
 --   "<leader>f",

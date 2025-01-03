@@ -1,6 +1,3 @@
--- require("mason").setup()
--- require("mason-lspconfig").setup()
-
 local cmp = require("cmp")
 
 cmp.register_source("snippy", require("cmp-snippy").new())
