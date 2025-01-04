@@ -1,17 +1,17 @@
 import = [
+  "rocks/parsers.toml",
   "rocks/themes.toml",
   "rocks/editor.toml",
   "rocks/rust.toml",
-  "rocks/parsers.toml",
   "rocks/lsp.toml"
 ]
 
 [plugins]
-"rocks.nvim" = { version = "2.41.2", pin = true }
-"rocks-git.nvim" = { version = "2.5.1", pin = true }
-"rocks-config.nvim" = { version = "3.0.0", pin = true }
-"rocks-lazy.nvim" = { version = "1.1.1", pin = true }
-"rocks-dev.nvim" = { version = "1.7.0", pin = true }
+"rocks.nvim" = {version = "2.41.2", pin = true}
+"rocks-git.nvim" = {version = "2.5.1", pin = true}
+"rocks-dev.nvim" = {version = "1.7.0", pin = true}
+"rocks-lazy.nvim" = {version = "1.1.1", pin = true}
+"rocks-config.nvim" = {version = "3.0.0", pin = true}
 
 [plugins."plenary.nvim"]
 version = "scm"

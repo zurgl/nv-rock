@@ -1,69 +1,65 @@
-[plugins]
-nvim-treesitter = "scm"
-#"rocks-treesitter.nvim" = { version = "1.1.3", pin = true }
+[plugins."nvim-window-picker"]
+version = "2.0.3"
+pin = true
 
-# [plugins."nvim-window-picker"]
-# version = "2.0.3"
-# pin = true
+[plugins."nvim-autopairs"]
+version = "scm" 
+pin = true 
 
-# [plugins."nvim-autopairs"]
-# version = "scm" 
-# pin = true 
+[plugins."nvim-ts-context-commentstring"]
+version = "scm"
+pin = true
 
-# [plugins."nvim-ts-context-commentstring"]
-# version = "scm"
-# pin = true
+[plugins."rainbow-delimiters.nvim"]
+version = "scm"
+pin = true
 
-# [plugins."rainbow-delimiters.nvim"]
-# version = "scm"
-# pin = true
+[plugins."indent-blankline.nvim"]
+version = "3.8.3"
+pin = true
 
-# [plugins."indent-blankline.nvim"]
-# version = "3.8.3"
-# pin = true
+[plugins."bufferline.nvim"]
+version = "4.8.0"
+pin = true
 
-# [plugins."bufferline.nvim"]
-# version = "4.8.0"
-# pin = true
+[plugins."nvim-web-devicons"]
+version = "0.100"
+pin = true
 
-# [plugins."nvim-web-devicons"]
-# version = "0.100"
-# pin = true
+[plugins."lualine.nvim"]
+version = "scm"
+pin = true
 
-# [plugins."lualine.nvim"]
-# version = "scm"
-# pin = true
+[plugins."nui.nvim"]
+version = "0.3.0"
+pin = true
 
-# [plugins."nui.nvim"]
-# version = "0.3.0"
-# pin = true
+[plugins."dashboard-nvim"] 
+version = "scm" 
+pin = true
 
-# [plugins."dashboard-nvim"] 
-# version = "scm" 
-# pin = true
+[plugins."startup.nvim"]
+version = "scm"
+pin = true
 
-# [plugins."startup.nvim"]
-# version = "scm"
-# pin = true
+[plugins."telescope-file-browser.nvim"]
+version = "scm"
+pin = true
 
-# [plugins."telescope-file-browser.nvim"]
-# version = "scm"
-# pin = true
+[plugins."neo-tree.nvim"]
+version = "3.26"
+pin = true
 
-# [plugins."neo-tree.nvim"]
-# version = "3.26"
-# pin = true
+[bundle."startup"]
+items = [
+  "dashboard-nvim",
+  "startup"
+]
+config = true
 
-# [bundle."startup"]
-# items = [
-#   "dashboard-nvim",
-#   "startup"
-# ]
-# config = true
-
-# [bundle."blankline"]
-# items = [
-#   "rainbow-delimiters.vim",
-#   "indent-blankline.nvim",
-# ]
+[bundle."blankline"]
+items = [
+  "rainbow-delimiters.vim",
+  "indent-blankline.nvim",
+]
 
