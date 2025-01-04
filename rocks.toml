@@ -1,8 +1,8 @@
 import = [
   "rocks/themes.toml",
-  "rocks/parsers.toml",
   "rocks/editor.toml",
   "rocks/rust.toml",
+  "rocks/parsers.toml",
   "rocks/lsp.toml"
 ]
 
@@ -11,10 +11,15 @@ import = [
 "rocks-git.nvim" = { version = "2.5.1", pin = true }
 "rocks-config.nvim" = { version = "3.0.0", pin = true }
 "rocks-lazy.nvim" = { version = "1.1.1", pin = true }
-"rocks-treesitter.nvim" = { version = "1.1.3", pin = true }
 "rocks-dev.nvim" = { version = "1.7.0", pin = true }
-"plenary.nvim" = { version = "scm", pin = true }
-"mason.nvim" = { version = "1.10.0", pin = true }
+
+[plugins."plenary.nvim"]
+version = "scm"
+pin = true
+
+[plugins."mason.nvim"]
+version = "1.10.0"
+pin = true
 
 [config]
 colorscheme = "kanagawa-wave"

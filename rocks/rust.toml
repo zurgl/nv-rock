@@ -9,4 +9,3 @@ pin = true
 [plugins."typst.vim"]
 git = "kaarmu/typst.vim"
 pin = true
-
