@@ -51,5 +51,10 @@ vim.g.loaded_python3_provider = 1
 vim.g.loaded_ruby_provider = 0
 vim.g.loaded_perl_provider = 0
 
+-- setup for deno-lsp
+vim.g.markdown_fenced_languages = {
+	"ts=typescript",
+}
+
 require("conf")
 require("keys")

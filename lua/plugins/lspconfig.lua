@@ -174,18 +174,9 @@ require("lspconfig").lua_ls.setup({
 })
 
 require("lspconfig").bashls.setup({})
-
--- require("lspconfig").denols.setup({
---   on_attach = on_attach,
--- })
-
-require("lspconfig").ts_ls.setup({})
-
+require("lspconfig").denols.setup({})
 require("lspconfig").cmake.setup({})
-
 require("lspconfig").remark_ls.setup({})
-
--- require("lspconfig").lemminx.setup({})
 
 require("conform").setup({
 	formatters_by_ft = {
